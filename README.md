@@ -13,4 +13,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 - Author - [Jimun Jang]
-- Frontend Mentor - [@yourusername](https://www.https://www.frontendmentor.io/profile/Jimun-J)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Jimun-J)
