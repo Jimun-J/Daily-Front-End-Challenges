@@ -12,9 +12,9 @@ Users should be able to:
 
 ### Screenshot
 #### Desktop
-    ![](./desktop.png)
+![](./desktop.png?raw=true "Desktop Landing")
 #### Mobile
-    ![](./mobile.png)
+![](./mobile.png?raw=true "Mobile Landing")
 
 
 ## My process
