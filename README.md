@@ -1,4 +1,4 @@
-# front-end-challenges
+# Daily-Front-End-Challenges
 
 ### Overview
 This repository is to challenge a front-end design daily.
