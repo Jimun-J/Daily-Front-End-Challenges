@@ -13,4 +13,21 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop
+![](./desktop.png?raw=true "Desktop Landing")
+#### Mobile
+![](./mobile.png?raw=true "Mobile Landing")
+#### Demo-Validation
+![](./demo-validation.gif?raw=true "Demo Validation")
+
+## My process
+
+### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- JavaScript DOM 
+- Mobile-first workflow
+
+### What I learned
+- Validation check using JavaScript
