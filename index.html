@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="sign-up-container">
+      <div class="left">
+        <h1>Learn to code by watching others</h1>
+        <p> 
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+
+      <div class="right">
+        <div class="purple-box">Try it free 7 days then $20/mo. thereafter</div>
+
+        <form name="signUp" action="/" method="post">
+          <label for="fname">
+            <img src="./images/icon-error.svg" alt="" class="error-img">
+            <input type="text" placeholder="First Name" name="fname">
+            <span class="error"></span>
+          </label>
+
+          <label for="lname">
+            <img src="./images/icon-error.svg" alt="" class="error-img">
+            <input type="text" placeholder="Last Name" name="lname">
+            <span class="error"></span>
+          </label>
+
+          <label for="email">
+            <img src="./images/icon-error.svg" alt="" class="error-img">
+            <input type="text" placeholder="Email Address" name="email">
+            <span class="error"></span>
+          </label>
+
+          <label for="password">
+            <img src="./images/icon-error.svg" alt="" class="error-img">
+            <input type="password" placeholder="Password" name="password">
+            <span class="error"></span>
+          </label>
+          
+          <button type="submit">CLAIM YOUR FREE TRIAL</button>
+          <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
