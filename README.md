@@ -15,7 +15,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 #### Desktop
 ![](./desktop.png?raw=true "Desktop Landing")
 #### Mobile
-![](./mobile.png?raw=true "Mobile Landing")
+![](./mobile1.png?raw=true "Mobile Landing")
 #### Menu-Close
 ![](./menu-close.png?raw=true "Menu-Close")
 #### Menu-Open
