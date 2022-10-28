@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+	left: 0;
+    width: 100%;
+	padding: 20px 48px;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header h1 {
+	float: left;
+}
+
+.main-navigation {
+    position: relative;
+    float: right;
+}
+
+.main-navigation a {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.main-navigation .contact {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+	font-weight: bold;
+	padding: 8px 20px;
+	border-radius: 20px;
+}
+
+.banner {
+    background: url("../images/desktop/image-header.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.3em;
+    transform: translateY(-30%);
+}
+
+.banner img {
+    transform: translateY(-30%);
+}
+
+.link-section {
+    width: 100%;
+    display: flex;
+}
+
+.link-section div, .link-section img {
+    width: 50%;
+}
+
+.link-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 480px;
+    margin: auto;
+}
+
+.text-wrap h1, .text-wrap p {
+    margin-bottom: 20px;
+}
+
+.text-wrap p {
+    color: hsl(210, 4%, 67%);
+}
+
+.text-wrap a {
+    color: black;
+    width: max-content;
+    border-bottom: 2px solid rgb(240, 240, 6);
+}
+
+.first-row {
+    flex-direction: row-reverse;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    width: 50%;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .text-wrap {
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.card .text-wrap p {
+    color: rgb(51, 51, 51);
+    margin-top: 24px;
+}
+
+.testimonials-container {
+    display: flex;
+    min-height: 100vh;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials-container h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.3em;
+    color:hsl(210, 4%, 67%);
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.testimonial-card img {
+    width: 120px;
+    border-radius: 50%;
+    margin: 48px;
+}
+
+.testimonial {
+    text-align: center;
+    color:rgb(54, 54, 54);
+    font-size: 0.9em;
+    margin: 48px;
+}
+
+.position {
+    font-size: 0.8em;
+    margin: 48px;
+    color: #aaa;
+}
+
+footer {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9FDCCD;
+}
+
+.socials img, .footer-navigation a {
+    margin: 10px;
+}
+
+.socials, .footer-navigation {
+    margin: 20px;
+}
+
+.footer-navigation a {
+    color: #33574e;
+}
+
+@media screen and (max-width: 1080px) {
+    .link-section div {
+        width: 360px;
+    }
+
+    .testimonial {
+        margin: 48px 0;
+    }
+
+    .testimonial-card {
+        margin: 20px;
+    }
+
+    .card .text-wrap {
+        width: 240px;
+        font-size: 0.8em;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .link-section {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .link-section img, .link-section div {
+        width: 100%;
+    }
+
+    .link-section div {
+        height: 480px;
+        text-align: center;
+        position: relative;
+        padding: 0 48px;
+    }
+
+    .link-section a {
+        display: block;
+        position: absolute;
+        bottom: 20%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-2 {
+        transform: translateY(-4px);
+    }
+
+    .card .text-wrap {
+        margin: 0;
+        padding: 0;
+    }
+
+    .testimonials-container h3 {
+        font-size: 1em;
+        margin: 20px;
+    }
+    
+    .review-container {
+        flex-direction: column;
+    }
+    
+    .testimonial-card {
+        margin: 12px;
+    }
+    
+    .testimonial-card img {
+        margin: 0px;
+    }
+    
+    .testimonial {
+        margin: 24px;
+        padding: 0 24px;
+    }
+    
+    .position {
+        font-size: 0.8em;
+        margin: 12px;
+        color: #aaa;
+    }
+
+    .banner h1 {
+        font-size: 1.5em;
+    }
+
+    .banner img {
+        height: 80px;
+    }
+
+    .main-navigation {
+		position: fixed;
+		top: 0;
+		left: 0;
+		padding: 80px 20px;
+		width: 100%;
+		height: 100vh;
+		background-color: rgba(14, 25, 38, 0.9);
+        z-index: 1;
+		opacity: 0;
+		transform: translatex(100%);
+	}
+
+    .main-navigation.active {
+		opacity: 1;
+		visibility: visible;
+		transform: translateX(0);
+		transition: 0.3s;
+	}
+
+	.main-navigation a {
+		display: block;
+        width: 100%;
+		margin: auto;
+		margin-bottom: 12px;
+		padding: 12px;
+	}
+
+	.main-navigation a.btn {
+		text-align: center;
+	}
+
+    .more-btn {
+		display: block;
+		position: absolute;
+		right: 12px;
+		top: 8px;
+		width: 40px;
+		height: 40px;
+		border-radius: 8px;
+		border: none;
+		background-color: transparent;
+        z-index: 4;
+	}
+
+	.more-btn .icon {
+		display: block;
+		width: 24px;
+		height: 24px;
+		margin: 0 auto;
+		background: url(../images/icon-menu.svg) no-repeat center;
+		background-size: contain;
+	}
+
+	.more-btn.active .icon {
+		background: url(../images/icon-close.svg) no-repeat center;
+		background-size: contain;
+	}
+}
+
+@media screen and (max-width: 360px) {
+    .link-section div {
+        font-size: 0.9em;
+    }
+
+    .link-section p {
+        font-size: 0.9em;
+    }
+
+    .link-section a {
+        bottom: 15%;
+    }
+    
+    .card .text-wrap {
+        width: 240px;
+        font-size: 0.7em;
+        bottom: 0;
+    }
+}

@@ -1,14 +1,30 @@
-# Daily-Front-End-Challenges
+# Frontend Mentor - Sunnyside agency landing page solution
 
-### Overview
-This repository is to challenge a front-end design daily.
+This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### Practices & Results
-Each Daily challenge is on a separate branch and you can find an end result as a screenshot in a README.md of each branch.
+## Overview
 
-### Source
-All daily challenges are from https://www.frontendmentor.io/challenges.
+### The challenge
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Moblie version of navigation bar (toggle menu)
 
-### Goal
-The goal is to improve my front-end skills by building real projects and solving real-world 
-HTML, CSS and JavaScript challenges whilst working to professional designs.
+### Screenshot
+
+![](./screenshot.jpg)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
+## My process
+
+### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- jQuery
