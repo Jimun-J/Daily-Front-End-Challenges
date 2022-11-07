@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+
+<body>
+  <div class="card-container">
+    <div class="left">
+      <img class="box-img" src="./images/illustration-box-desktop.svg" alt="box-desktop">
+      <img class="woman-img" src="./images/illustration-woman-online-desktop.svg" alt="woman-online-desktop">
+    </div>
+    <div class="right">
+      <h1>FAQ</h1>
+
+      <div class="accordian">
+        <button class="question">
+          How many team members can I invite?
+          <img src="./images/icon-arrow-down.svg" alt="arrow img">
+        </button>
+        <div class="answer">
+          You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.
+        </div>
+        <hr>
+      </div>
+
+      <div class="accordian">
+        <button class="question">
+          What is the maximum file upload size?
+          <img src="./images/icon-arrow-down.svg" alt="arrow img">
+        </button>
+        <div class="answer">
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </div>
+        <hr>
+      </div>
+
+      <div class="accordian">
+        <button class="question">
+          How do I reset my password?
+          <img src="./images/icon-arrow-down.svg" alt="arrow img">
+        </button>
+        <div class="answer">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </div>
+        <hr>
+      </div>
+
+      <div class="accordian">
+        <button class="question">
+          Can I cancel my subscription?
+          <img src="./images/icon-arrow-down.svg" alt="arrow img">
+        </button>
+        <div class="answer">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </div>
+        <hr>
+      </div>
+
+      <div class="accordian">
+        <button class="question">
+          Do you provide additional support?
+          <img src="./images/icon-arrow-down.svg" alt="arrow img">
+        </button>
+        <div class="answer">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const buttons = document.querySelectorAll('.question');
+    buttons.forEach(button => {
+      button.addEventListener('click', (e) => {
+        let targetedImg = e.target.childNodes[1] || e.target;
+        let accordian = targetedImg.parentNode.parentNode;
+        let question = accordian.childNodes[1];
+        let answer = accordian.childNodes[3];
+
+        let allButtonImages = document.querySelectorAll('.question img');
+        allButtonImages.forEach(button => {
+          if (button !== targetedImg) {
+            button.classList.remove('active');
+          }
+        });
+
+        let allAnswers = document.querySelectorAll('.answer');
+        allAnswers.forEach(answer => {
+          answer.classList.remove('active');
+        });
+
+        let allQuestions = document.querySelectorAll('.question');
+        allQuestions.forEach(question => {
+          question.classList.remove('active');
+        });
+
+        if (targetedImg.classList.contains('active')) {
+          targetedImg.classList.remove('active');
+          answer.classList.remove('active');
+          question.classList.remove('active');
+        } else {
+          targetedImg.classList.add('active');
+          answer.classList.add('active');
+          question.classList.add('active');
+        }
+      });
+    });
+
+  </script>
+</body>
+
+</html>

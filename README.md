@@ -1,14 +1,3 @@
-# Daily-Front-End-Challenges
+# Frontend Mentor - FAQ accordion card solution
 
-### Overview
-This repository is to challenge a front-end design daily.
-
-### Practices & Results
-Each Daily challenge is on a separate branch and you can find an end result as a screenshot in a README.md of each branch.
-
-### Source
-All daily challenges are from https://www.frontendmentor.io/challenges.
-
-### Goal
-The goal is to improve my front-end skills by building real projects and solving real-world 
-HTML, CSS and JavaScript challenges whilst working to professional designs.
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
