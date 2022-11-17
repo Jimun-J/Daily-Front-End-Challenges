@@ -13,5 +13,17 @@ Users should be able to:
 - **Bonus**: Toggle the mobile menu (requires some JavaScript)
 
 ### Screenshot
+#### Desktop
+![](./desktop.png?raw=true "Desktop Landing")
+#### Mobile
+![](./mobile.png?raw=true "Mobile Landing")
+#### Mobile-Menu
+![](./mobile-menu.png?raw=true "Mobile Menu")
 
-![](./screenshot.jpg)
+
+## My process
+### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
