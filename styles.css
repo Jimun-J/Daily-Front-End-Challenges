@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    padding: 0 0 20px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.overlay.active {
+    display: block;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    margin-right: 24px;
+}
+
+.navigation ul li a {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigation ul li a:hover {
+    color: hsl(233, 8%, 79%);
+}
+
+.news {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2.8fr 1.2fr;
+    gap: 24px;
+}
+
+.main-news {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.main-news img {
+    width: 100%;
+}
+
+.text-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-wrap h1 {
+    font-size: 3em;
+    padding: 14px;
+}
+
+.text-wrap .excerpt {
+    padding: 14px;
+}
+
+.text-wrap p {
+    font-size: 15px;
+    margin: 40px 0;
+}
+
+.text-wrap button {
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    width: 160px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.recent-news {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.recent-news div {
+    margin-bottom: 36px;
+}
+
+.recent-news h1:first-child {
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 24px;
+}
+
+.recent-news h3 {
+    margin-bottom: 12px;
+}
+
+.recent-news p {
+    color:hsl(236, 13%, 42%);
+    font-size: 0.8em;
+    
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(236, 13%, 42%);
+    margin-bottom: 24px;
+}
+
+.popular-news {
+    grid-column-start: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+    margin: 24px 0;
+}
+
+.popular-news > div {
+    display: flex;
+}
+
+.popular-news img {
+    width: 30%;
+    margin-right: 14px;
+}
+
+.popular-news h3 {
+    color: hsl(233, 8%, 79%);
+    font-size: 2em;
+    margin: 0;
+}
+
+.popular-news h4 {
+    margin: 10px 0;
+}
+
+.popular-news p {
+    font-size: 0.8em;
+    color:hsl(236, 13%, 42%);
+}
+
+#menu-btn {
+    position: fixed;
+    background: url("./assets/images/icon-menu.svg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 50px;
+    right: 8%;
+    width: 24px;
+    height: 24px;
+    z-index: 999;
+    display: none;
+}
+
+#menu-btn.active {
+    background: url("./assets/images/icon-menu-close.svg") no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.navigation ul.active {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .news {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-news {
+        grid-column-start: span 1;
+    }
+
+    .popular-news img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    header {
+        position: fixed;
+        background-color: white;
+        width: 100%;
+    }
+
+    .news {
+        padding-top: 128px;
+    }
+
+    .text-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .text-wrap h1 {
+        font-size: 2em;
+        padding: 0px;
+    }
+
+    .text-wrap .excerpt {
+        padding: 0;
+    }
+    
+    .text-wrap p {
+        font-size: 15px;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background-color: white;
+        width: 60%;
+        display: none;
+        padding-top: 128px;
+        padding-left: 24px;
+    }
+
+    .navigation ul li {
+        padding-bottom: 24px;
+    }
+
+    .navigation ul li a {
+        color: black;
+        font-size: 1.2em;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .popular-news {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-news img {
+        display: block;
+    }
+}

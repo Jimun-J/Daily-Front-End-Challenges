@@ -1,14 +1,17 @@
-# Daily-Front-End-Challenges
+# Frontend Mentor - News homepage solution
 
-### Overview
-This repository is to challenge a front-end design daily.
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-### Practices & Results
-Each Daily challenge is on a separate branch and you can find an end result as a screenshot in a README.md of each branch.
+## Overview
 
-### Source
-All daily challenges are from https://www.frontendmentor.io/challenges.
+### The challenge
 
-### Goal
-The goal is to improve my front-end skills by building real projects and solving real-world 
-HTML, CSS and JavaScript challenges whilst working to professional designs.
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: Toggle the mobile menu (requires some JavaScript)
+
+### Screenshot
+
+![](./screenshot.jpg)
