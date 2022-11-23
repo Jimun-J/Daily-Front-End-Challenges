@@ -15,5 +15,5 @@ Users should be able to:
 #### Desktop
 ![](./desktop.png?raw=true "Desktop Landing")
 #### Mobile
-![](./mobile1.png?raw=true "Mobile Landing")
+![](./mobile.png?raw=true "Mobile Landing")
 
