@@ -12,3 +12,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
+#### Desktop
+![](./desktop.png?raw=true "Desktop Landing")
+#### Mobile
+![](./mobile1.png?raw=true "Mobile Landing")
+
