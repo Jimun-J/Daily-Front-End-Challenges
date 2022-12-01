@@ -24,7 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Theme One
+![](./themeone.png?raw=true "Theme One")
+#### Theme Two
+![](./themetwo.png?raw=true "Theme Two")
+#### Theme Three
+![](./themethree.png?raw=true "Theme Three")
 
 ### Links
 
