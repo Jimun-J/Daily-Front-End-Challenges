@@ -1,0 +1,44 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container h5 {
+    margin-right: 10px;
+}
+
+.buttons-numbers {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.buttons-switches {
+    display: flex;
+    width: 56px;
+    background-color: hsl(223, 31%, 20%);
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 14px;
+}
+
+.buttons-switches div {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttons-switches div.active {
+    background-color: hsl(6, 63%, 50%);
+}
+
