@@ -1,0 +1,42 @@
+.step {
+    padding: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.step .text-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.step span {
+    color: #9699ab;
+    font-size: 0.7em;
+}
+
+.step p {
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.number {
+    width: 28px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.7em;
+    margin-right: 14px;
+}
+
+.step.active .number {
+    background-color: #adbeff;
+    border: 1px solid #adbeff;
+    color: black;
+    font-weight: bold;
+}
