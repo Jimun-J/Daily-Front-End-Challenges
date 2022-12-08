@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Sidebar.css'
 import Step from '../Step/Step'
 

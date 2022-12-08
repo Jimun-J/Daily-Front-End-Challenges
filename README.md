@@ -5,25 +5,32 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Completion](#Completion)
+  - [Next Steps](#next-steps)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
 
 ## Overview
 
-### The challenge
-Users should be able to:
-- Complete each step of the sequence
-- See a summary of their selections on the final step and confirm their order
+### Completion
+- Designs of each step
 - View the optimal layout for the interface depending on their device's screen size
 
+### Next Steps
+- hover and focus states for all interactive elements on the page
+- A summary of their selections on the final step and confirm their order
+- Validation of each step
+
+
 ### Screenshot
-![](./screenshot.jpg)
+#### Desktop
+![](./desktop.png?raw=true "Desktop")
+#### Mobile
+![](./mobile.png?raw=true "Mobile")
 
 
 ## My process
-
 ### Built with
 
 - Semantic HTML5 markup
