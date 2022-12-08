@@ -14,12 +14,12 @@ The goal is to improve my front-end skills by building real projects and solving
 HTML, CSS and JavaScript challenges whilst working to professional designs.
 
 ### Branches
-Day 1: card component
-Day 2: landing page
-Day 3: Login Page with validation
-Day 4: complete webpages
-Day 5: Accordians
-Day 6: Blog landing page
-Day 7: Bank landing page
-Day 8: useContext (React Hook) for multiple themes
-Day 9: Multi-step form
+- Day 1: card component
+- Day 2: landing page
+- Day 3: Login Page with validation
+- Day 4: complete webpages
+- Day 5: Accordians
+- Day 6: Blog landing page
+- Day 7: Bank landing page
+- Day 8: useContext (React Hook) for multiple themes
+- Day 9: Multi-step form
