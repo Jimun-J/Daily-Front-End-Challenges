@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![](./desktop.gif?raw=true "Desktop")
+![](./mobile.gif?raw=true "Mobile")
 
 ## My process
 
