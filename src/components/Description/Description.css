@@ -1,0 +1,131 @@
+.Description {
+    height: 100%;
+    width: 50%;
+    padding: 72px 40px;
+}
+
+.company-name {
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.product-name {
+    font-size: 2.4em;
+    margin-bottom: 32px;
+    line-height: 0.9;
+}
+
+.product-description {
+    line-height: 2;
+    color: hsl(219, 9%, 45%);
+    margin-bottom: 32px;
+}
+
+.discount-price {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.discount-price span {
+    display: inline-block;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    font-size: 16px;
+    padding: 7px 8px 4px 8px;
+    margin-left: 12px;
+    border-radius: 8px;
+    transform: translateY(-4px);
+}
+
+.original-price {
+    color: hsl(219, 9%, 45%);
+    font-size: 0.9em;
+}
+
+.counter {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 247);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.minus {
+    transform: translateY(-3px);
+    height: 100%;
+}
+
+.minus-container, .plus-container {
+    cursor: pointer;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-add-to-cart {
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    color: white;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1080px){
+    .Description {
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .product-description {
+        line-height: 1.2;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .product-name {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .thumbnails {
+        display: none;
+    }
+
+    .Description {
+        width: 100%;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .thumbnails {
+        display: none;
+    }
+
+    .Description {
+        padding: 20px;
+    }
+}
+
+
+
